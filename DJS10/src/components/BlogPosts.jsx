@@ -37,13 +37,13 @@ const BlogPosts = () => {
   }
 
   return (
-    <div>
-      {posts.map((post) => (
-        <div
-          key={post.id}
-          style={{ border: "1px solid #ddd", margin: "1em 0", padding: "1em" }}
-        >
-          <h2>{post.title}</h2>
+    <div className="blog-posts">
+      {posts.map((post, index) => (
+        <div key={post.id} className="post">
+          <h2>
+            {index + 1}. {post.title}
+          </h2>{" "}
+          {/* Numbered title */}
           <p>{post.body}</p>
         </div>
       ))}

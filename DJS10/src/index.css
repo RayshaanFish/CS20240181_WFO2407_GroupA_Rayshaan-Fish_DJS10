@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f9fa;
+  text-align: center;
 }
 
 h1 {
@@ -15,4 +16,33 @@ div {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.blog-posts {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  font-family: Arial, sans-serif;
+}
+
+.post {
+  margin: 1em 0;
+  padding: 1em;
+
+  background-color: #f9f9f9;
+}
+
+.post h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.post p {
+  font-size: 1em;
+  color: #555;
 }
